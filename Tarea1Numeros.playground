@@ -1,0 +1,27 @@
+/*
+Tarea 1 : Generar serie de numeros
+con condicionantes del 0 al 100.
+Autor: Rodrigo Hernandez
+Fecha: 10 Sep. 2016
+*/
+import UIKit
+
+for indice in 0...100{
+    // Si el número es divisible entre 5, imprime: # el número  + “Bingo!!!”
+    if indice % 5 == 0 {
+        print("\(indice) Bingo!!!")
+    }
+    // Si el número es par, imprime: # el número + “par!!!”
+    if indice % 2 == 0 {
+        print("\(indice) par!!!")
+    }
+    // Si el número es impar, imprime: # el número + “impar!!!”
+    if indice % 2 != 0 {
+        print("\(indice) impar!!!")
+    }
+    // Si el número se encuentra dentro de un rango del 30 al 40, imprime: # el número +  “Viva Swift!!!”
+    if indice >= 30 && indice <= 40 {
+        print("\(indice) Viva Swift!!!")
+    }
+
+}
