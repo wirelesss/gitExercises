@@ -43,6 +43,29 @@ for iterador in 1...20 {
     print("Cambio de Velocidad #\(iterador) : \(auto1.cambioDeVelocidad().velocidadEnCadena)")
 }
 
+/* SALIDA EN CONSOLA:
+Velocidad inicial: 0, estado: Apagado
+Cambio de Velocidad #1 : La velocidad actual es: 0, estado: Apagado
+Cambio de Velocidad #2 : La velocidad actual es: 20, estado: VelocidadBaja
+Cambio de Velocidad #3 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #4 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #5 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #6 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #7 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #8 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #9 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #10 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #11 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #12 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #13 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #14 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #15 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #16 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #17 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #18 : La velocidad actual es: 120, estado: VelocidadAlta
+Cambio de Velocidad #19 : La velocidad actual es: 50, estado: VelocidadMedia
+Cambio de Velocidad #20 : La velocidad actual es: 120, estado: VelocidadAlta
+*/
 
 
 
